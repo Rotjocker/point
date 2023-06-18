@@ -46,10 +46,10 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
-DEVS = [1260465030]
-OWNER_ID = 1260465030
-OWNER_IDD = 3154545458
-OWNER_IDDD = 5159123009
+DEVS = [1308075085]
+OWNER_ID = 1308075085
+OWNER_IDD = 1308075085
+OWNER_IDDD = 1308075085
 @bot.on(events.NewMessage)
 async def handler(event):
     if event.sender_id == OWNER_ID:
@@ -72,21 +72,21 @@ async def handler(event):
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@Tepthon"))
+        await Tepthon1(JoinChannelRequest("@vlod2"))
     except BaseException:
         pass
 
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@saythonh"))
+        await Tepthon1(JoinChannelRequest("@ji888"))
     except BaseException:
         pass
         
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@Tepthon_Help"))
+        await Tepthon1(JoinChannelRequest("@vlod2"))
     except BaseException:
         pass
       
@@ -94,7 +94,7 @@ async def join_channel(event):
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@P17_12"))
+        await Tepthon1(JoinChannelRequest("@ji888"))
     except BaseException:
         pass  
 
@@ -155,15 +155,7 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ⌯──╮
-
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗧𝗘𝗣𝗧𝗛𝗢𝗡    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗧𝗔𝗟𝗘𝗕  ※
-
-╰───⌯𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+اجازه عمك وخلص لا تكثر وتتعبك نفسك تره اظل عمك فهمت؟
 ''')
 
 @Tepthon1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -711,16 +703,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         send = await Tepthon1.send_message(event.chat_id, "**جاري الانضمام التلقائي للقنوات**")
-        joinq = await Tepthon1(JoinChannelRequest('d3boot_7'))
-        joinw = await Tepthon1(JoinChannelRequest('Fvvvv'))
-        joine = await Tepthon1(JoinChannelRequest('DzDDDD'))
-        joinr = await Tepthon1(JoinChannelRequest('botbillion'))
-        joint = await Tepthon1(JoinChannelRequest('zzzzzz1'))
-        joiny = await Tepthon1(JoinChannelRequest('zzzzzz'))
-        joini = await Tepthon1(JoinChannelRequest('zz_MX'))
-        joino = await Tepthon1(JoinChannelRequest('zd_e6'))
-        joinp = await Tepthon1(JoinChannelRequest('KTTTT'))
-        joina = await Tepthon1(JoinChannelRequest('RRXFR'))
+        joinq = await Tepthon1(JoinChannelRequest('vlod2'))
         sendd = await Tepthon1.send_message(event.chat_id, "**⎆ تـم الانضمام في القنوات**")
         
         
